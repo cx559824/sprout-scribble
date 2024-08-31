@@ -1,0 +1,1 @@
+ALTER TABLE "posts" ADD COLUMN "shit" text NOT NULL;
