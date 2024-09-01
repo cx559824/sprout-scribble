@@ -3,7 +3,7 @@ import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
 import * as schema from "@/server/schema";
 
-config({ path: ".env" }); // or .env.local
+config({ path: ".env.local" }); // or .env.local
 
 const sql = neon(process.env.POSTGRES_URL!);
 
